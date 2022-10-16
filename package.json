@@ -1,0 +1,24 @@
+{
+  "name": "forkify",
+  "version": "1.0.0",
+  "description": "Recipe application",
+  
+  "scripts": {
+    "start": "parcel ./starter/index.html",
+    "build": "parcel build ./starter/index.html --dist-dir ./dist"
+  },
+  "author": "Del Prete Roberto",
+  "license": "ISC",
+  "dependencies": {
+    "core-js": "^3.25.5",
+    "fractional": "^1.0.0",
+    "fracty": "^1.0.11",
+    "parcel": "^2.7.0",
+    "regenerator-runtime": "^0.13.9"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.19.3",
+    "@babel/core": "^7.19.3",
+    "@parcel/transformer-sass": "^2.7.0"
+  }
+}
